@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="py-5"></div>
+<div class="container">
+  <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+    <div class="col-md-6 px-0">
+      <h1 class="display-4 font-italic">Sequence Searcher</h1>
+      <p class="lead my-3">An App that searches gene and protein sequences from the web.</p>
+      <p class="lead mb-0 text-white font-weight-bold">Coming soon</p>
+    </div>
+  </div>
+
+  <div class="row mb-2">
+
+    <div class="col-md-6">
+      <div class="card flex-md-row mb-4 box-shadow h-md-250">
+        <div class="card-body d-flex flex-column align-items-start">
+          <h3 class="mb-2">
+            <a class="text-dark" href="https://genomi.streamlit.app">Genomi App</a>
+          </h3>
+          <p class="card-text mb-2 mt-2">An app performs analysis and visualization on gene and protein sequences.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card flex-md-row mb-4 box-shadow h-md-250">
+        <div class="card-body d-flex flex-column align-items-start">
+          <h3 class="mb-2">
+            <a class="text-dark" href="https://mwakosy-julius-pairwise-alignment-project-n3uyr7.streamlit.app/">Pairwise-alignment</a>
+          </h3>
+          <p class="card-text mb-2 mt-2">An app that performs performs pairwise alignment on nucleotide sequences.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+{% endblock %}
