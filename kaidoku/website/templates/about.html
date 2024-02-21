@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<style>
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+</style>
+
+<div class="container marketing">
+    <div class="py-5"></div>
+    <div class="py-5"></div>
+    <div class="d-flex row mt-2 align-items-center">
+        <div class="col-lg-4 justify-content-center">
+            <img class="rounded-circle" src="{% static 'images/vision.jpg' %}" alt="Example Image" width="140" height="140">
+            <h2 class="p-2">Vision</h2>
+            <p>Our vision is to become the world leader in bioinformatics tool creation and genomic data interpretation.
+            </p>
+        </div>
+        <div class="col-lg-4">
+            <img class="rounded-circle" src="{% static 'images/mission.jpg' %}" width="140" height="140">
+            <h2 class="p-2">Mission</h2>
+            <p>It is our mission to deliver efficient and creative bioinformatics tools for genomic data handling, interpretation and automation solutions.
+            </p>
+        </div>
+        <div class="col-lg-4">
+            <img class="rounded-circle" src="{% static 'images/services.jpg' %}" width="140" height="140">
+            <h2 class="p-2">Services</h2>
+            <p>Our service is designed for scientists, institutions and companies who want easy access to the right kind of bioinformatics expertise.
+    </dir>
+</div>
+{% endblock %}
