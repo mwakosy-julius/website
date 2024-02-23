@@ -12,8 +12,5 @@ def products(request):
 def blog(request):
     return render(request, "blog.html")
 
-def gallery(request):
-    return render(request, "gallery.html")
-
 def contacts(request):
     return render(request, "contacts.html") 
