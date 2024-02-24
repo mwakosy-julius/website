@@ -1,7 +1,47 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div>
-    <h4>this is news page</h4>
-</div>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    section {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    article {
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        color: #333;
+    }
+
+    p {
+        color: #555;
+    }
+</style>
+<section>
+        <article>
+            <h2>Quantum Algorithms</h2>
+            <p>Posted on January 1, 2024</p>
+            <p>This is the content of the blog post. You can write your thoughts, updates, or any relevant information
+                here.</p>
+        </article>
+
+        <article>
+            <h2>DNA Degeneracy</h2>
+            <p>Posted on January 5, 2024</p>
+            <p>Another blog post with some interesting content. Feel free to customize and add your own information.</p>
+        </article>
+    </section>
+
 {% endblock %}
